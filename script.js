@@ -19,10 +19,10 @@ function guess() {
     // );
     Photo();
   } else if (y > a) {
-    alert("Sorry 😮 !!!  try a larger number");
+    alert("Oops 😮 !!!  try a larger number");
     count++;
   } else if (y < a) {
-    alert("Sorry 😮 !!!  try a smaller number");
+    alert("Oops 😮 !!!  try a smaller number");
     count++;
   } else {
     alert("please  give a number");
