@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+  /* background: linear-gradient(to right, rgb(206, 209, 17), rgb(218, 24, 24)); */
+  background: linear-gradient(to right, rgb(168, 108, 108), rgb(168, 108, 108));
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  border: 2px solid black;
+  /* background: linear-gradient(to bottom, rgb(23, 194, 236), rgb(12, 223, 12)); */
+  background-color: pink;
+
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.containerOne {
+  width: 70%;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+    /* height: 500px; */
+  }
+h1 {
+  padding: 10px;
+}
+h5 {
+  padding: 20px;
+}
+#num {
+  padding: 5px;
+  text-align: center;
+  width: 20%;
+}
+#btn {
+  padding: 5px;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: rgb(172, 19, 19);
+}
+.head{
+  font-size :4rem;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
